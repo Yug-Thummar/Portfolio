@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import resumePdf from '../assets/Yug_Thummar_CV.pdf'
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -30,7 +29,7 @@ export default function Header() {
             </Link>
           ))}
           <a
-            href={resumePdf}
+            href="/Yug-Thummar-Resume.pdf"
             download="Yug-Thummar-Resume.pdf"
             className="px-4 py-2 border-[3px] border-black dark:border-white bg-[#FF5C00] text-white font-label-bold uppercase text-xs shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] dark:shadow-[3px_3px_0px_0px_rgba(255,255,255,1)] hover:opacity-90 transition-none"
           >
@@ -64,7 +63,7 @@ export default function Header() {
             Contact
           </Link>
           <a
-            href={resumePdf}
+            href="/Yug-Thummar-Resume.pdf"
             download="Yug-Thummar-Resume.pdf"
             className="block w-full px-4 py-4 col-span-2 border-t-[3px] border-black dark:border-white bg-[#FF5C00] text-white font-bold uppercase hover:opacity-90 transition-none"
             onClick={() => setMobileMenuOpen(false)}
