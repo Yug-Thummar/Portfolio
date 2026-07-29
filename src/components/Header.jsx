@@ -29,11 +29,12 @@ export default function Header() {
             </Link>
           ))}
           <a
-            href="/Yug-Thummar-Resume.pdf"
-            download="Yug-Thummar-Resume.pdf"
+            href="https://drive.google.com/file/d/1Nt45RrJv5Cy_oLruZStNjUQ0eT5lJ3Et/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
             className="px-4 py-2 border-[3px] border-black dark:border-white bg-[#FF5C00] text-white font-label-bold uppercase text-xs shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] dark:shadow-[3px_3px_0px_0px_rgba(255,255,255,1)] hover:opacity-90 transition-none"
           >
-            Resume
+            View Resume
           </a>
         </nav>
 
@@ -63,12 +64,13 @@ export default function Header() {
             Contact
           </Link>
           <a
-            href="/Yug-Thummar-Resume.pdf"
-            download="Yug-Thummar-Resume.pdf"
+            href="https://drive.google.com/file/d/1Nt45RrJv5Cy_oLruZStNjUQ0eT5lJ3Et/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
             className="block w-full px-4 py-4 col-span-2 border-t-[3px] border-black dark:border-white bg-[#FF5C00] text-white font-bold uppercase hover:opacity-90 transition-none"
             onClick={() => setMobileMenuOpen(false)}
           >
-            Download Resume
+            View Resume
           </a>
           </div>
         </nav>

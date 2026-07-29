@@ -101,11 +101,12 @@ export default function Home() {
             View Projects
           </Link>
           <a
-            href="/Yug-Thummar-Resume.pdf"
-            download="Yug-Thummar-Resume.pdf"
+            href="https://drive.google.com/file/d/1Nt45RrJv5Cy_oLruZStNjUQ0eT5lJ3Et/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
             className="bg-white text-black border-[3px] border-black px-6 py-4 font-label-bold text-sm uppercase shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none transition-none hover:bg-black hover:text-white inline-block"
           >
-            Download Resume
+            View Resume
           </a>
         </div>
         <div className="grid grid-cols-1 gap-4">
