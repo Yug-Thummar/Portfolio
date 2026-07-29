@@ -7,111 +7,56 @@ export default function ProjectsPage() {
   const projects = [
     {
       id: 1,
-      title: 'CarrerConnect - Job Portal',
-      description: 'A job portal for matching candidates with openings and managing applications.',
-      videoId: 'IZ5P_R5yR3Q',
-      githubUrl: 'https://github.com/pawaradvait/Carrier-Connect--Job-Portal',
-      tags: ['React', 'Job Portal', 'UI'],
-      badge: 'WEB'
-    },
-    {
-      id: 2,
-      title: 'Physiokea',
-      description: 'A digital physiotherapy and rehabilitation platform focused on guided therapy programs, online consultations, and home-based care solutions.',
+      title: 'PhysioKea',
+      description: 'A healthcare management platform for physiotherapy clinics with appointment scheduling, patient records, billing, and multi-role administration.',
       videoId: '',
-      githubUrl: 'https://github.com/pawaradvait',
       deployedUrl: 'https://physiokea.com/',
-      tags: ['React', 'Firebase'],
+      tags: ['React.js', 'Node.js', 'Express.js', 'Firebase', 'Firestore', 'Razorpay'],
       badge: 'APP'
     },
     {
-      id: 3,
-      title: 'Mandali Deals',
-      description: 'An e-commerce and deals platform that provides discounted products, online shopping offers, and promotional deals across different categories.',
+      id: 2,
+      title: 'MandaliDeals',
+      description: 'A group-buying e-commerce platform where customers join campaigns to unlock volume-based discounts.',
       videoId: '',
       deployedUrl: 'https://mandalideals.com/',
-      tags: ['React', 'Firebase'],
+      tags: ['React.js', 'React Native', 'Node.js', 'Firebase', 'Firestore', 'Razorpay', 'Cloud Functions'],
+      badge: 'WEB'
+    },
+    {
+      id: 3,
+      title: 'Celestial Stores',
+      description: 'A premium e-commerce website with modern UI, secure shopping experience, and SEO-optimized product pages.',
+      videoId: '',
+      deployedUrl: 'https://celestialstores.in/',
+      tags: ['Next.js', 'React.js', 'Firebase', 'Tailwind CSS'],
       badge: 'WEB'
     },
     {
       id: 4,
-      title: 'Tranquility Tech',
-      description: 'A backend-driven project focused on workflow, stability, and enterprise delivery.',
-      videoId: 'W4ooDpBKD_4',
-      githubUrl: 'https://github.com/pawaradvait/tranquilty-backend',
-      tags: ['Spring', 'Backend', 'Java'],
+      title: 'LabSoul Technologies',
+      description: 'A corporate business website optimized for technical SEO, search engine indexing, and improved online visibility.',
+      videoId: '',
+      deployedUrl: 'https://labsoultechnologies.com/',
+      tags: ['React.js', 'Firebase', 'Cloud Functions', 'SEO'],
       badge: 'WEB'
     },
     {
       id: 5,
-      title: 'Ease School - School Application',
-      description: 'A school management application for handling academic and administrative needs.',
-      videoId: 'fCZq0Vw1o4k',
-      githubUrl: 'https://github.com/pawaradvait/Ease-School-Web-Application-',
-      tags: ['React', 'School App', 'Management'],
+      title: 'Samphire India',
+      description: 'A business website with Firebase hosting, analytics integration, and performance tracking for user engagement.',
+      videoId: '',
+      deployedUrl: 'https://samphireindia.web.app/',
+      tags: ['React.js', 'Firebase', 'Google Analytics 4'],
       badge: 'WEB'
     },
     {
       id: 6,
-      title: 'Banking Application',
-      description: 'Microservice-based banking backend built for scalable enterprise workflows.',
+      title: 'Jewellery E-Commerce',
+      description: 'A luxury jewellery e-commerce frontend built with Next.js and React, featuring responsive UI, product filtering, and interactive cart functionality.',
       videoId: '',
-      githubUrl: 'https://github.com/pawaradvait/BankIndia---micorservice-architecture-',
-      tags: ['Microservices', 'Backend', 'Banking'],
-      badge: 'WEB'
-    },
-    {
-      id: 7,
-      title: 'Course App - Reactjs, Springboot',
-      description: 'A course management application with a React frontend and Spring Boot backend.',
-      videoId: '8z2rAmbZYvs',
-      githubUrl: 'https://github.com/pawaradvait/CourseBackend',
-      tags: ['React', 'Spring Boot', 'Course App'],
-      badge: 'WEB'
-    },
-    {
-      id: 8,
-      title: 'Myntra Clone',
-      description: 'An e-commerce clone project focused on shopping flows and product browsing.',
-      videoId: '',
-      githubUrl: 'https://github.com/pawaradvait/myntra-ecom',
-      tags: ['E-commerce', 'Clone', 'UI'],
-      badge: 'WEB'
-    },
-    {
-      id: 9,
-      title: 'Neural Grid UI',
-      description: 'A brutalist dashboard for monitoring distributed AI training clusters across multiple nodes.',
-      videoId: '',
-      githubUrl: 'https://github.com/pawaradvait',
-      tags: ['React', 'WebGL', 'D3.js'],
-      badge: 'WEB'
-    },
-    {
-      id: 10,
-      title: 'Vector Core',
-      description: 'Engineered a custom rendering engine for SVG-based architectural visualizations in-browser.',
-      videoId: '',
-      githubUrl: 'https://github.com/pawaradvait',
-      tags: ['Rust', 'Wasm'],
-      badge: 'WEB'
-    },
-    {
-      id: 11,
-      title: 'Pulse Monitor',
-      description: 'Live analytics cockpit for multi-region SaaS operations and incident tracking.',
-      videoId: '',
-      githubUrl: 'https://github.com/pawaradvait',
-      tags: ['React', 'Realtime'],
-      badge: 'WEB'
-    },
-    {
-      id: 12,
-      title: 'Orbit Admin',
-      description: 'Role-based enterprise admin panel with audit trails and policy controls.',
-      videoId: '',
-      githubUrl: 'https://github.com/pawaradvait',
-      tags: ['TypeScript', 'RBAC'],
+      deployedUrl: 'https://jewellery-nextjs-project.vercel.app/',
+      tags: ['Next.js', 'React.js', 'Material UI'],
       badge: 'WEB'
     }
   ]
@@ -123,12 +68,9 @@ export default function ProjectsPage() {
 
   return (
     <main className="w-full">
-      <section className="border-b-[3px] border-black bg-white">
+      <section className="border-b-[3px] border-black bg-white text-center">
         <div className="p-4 md:p-6">
-          <h1 className="font-headline-lg text-headline-lg uppercase mb-3">Project Portfolio</h1>
-          <p className="font-body-md text-body-md max-w-3xl text-black">
-            Featured case studies from my portfolio. Each card includes a YouTube demo button when available.
-          </p>
+          <h1 className="font-headline-lg text-headline-lg uppercase mb-3 text-black">Project Portfolio</h1>
         </div>
       </section>
 
@@ -146,14 +88,7 @@ export default function ProjectsPage() {
               </div>
               <div className="p-2 sm:p-4 min-h-[220px] sm:min-h-[260px] flex flex-col">
                 <h3 className="font-headline-md uppercase mb-2 truncate text-sm sm:text-base md:text-lg">{project.title}</h3>
-                <p
-                  className="font-body-md mb-3 sm:mb-4 text-[11px] sm:text-sm overflow-hidden text-black"
-                  style={{
-                    display: '-webkit-box',
-                    WebkitLineClamp: 3,
-                    WebkitBoxOrient: 'vertical'
-                  }}
-                >
+                <p className="font-body-md mb-3 sm:mb-4 text-[11px] sm:text-sm text-black">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-1.5 sm:gap-2 mb-3 sm:mb-4">

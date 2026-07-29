@@ -2,9 +2,9 @@ export default function Contact() {
   return (
     <main className="w-full">
       {/* Contact Header */}
-      <section className="p-4 border-b-[3px] border-black bg-white">
-        <h1 className="font-headline-lg text-[48px] leading-none uppercase mb-4">Contact</h1>
-        <p className="font-body-md text-sm max-w-2xl">
+      <section className="p-4 border-b-[3px] border-black bg-white text-center">
+        <h1 className="font-headline-lg text-[48px] leading-none uppercase mb-4 text-black">Contact</h1>
+        <p className="font-body-md text-lg max-w-2xl mx-auto text-black">
           Reach out using the details below.
         </p>
       </section>
@@ -67,21 +67,7 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Social Links */}
-      <section className="p-4 bg-white">
-        <h3 className="font-headline-md uppercase mb-4 border-b-[3px] border-black pb-2">Follow</h3>
-        <div className="grid grid-cols-2 gap-3">
-          <a href="https://github.com/Yug-Thummar" target="_blank" rel="noreferrer" className="border-[3px] border-black p-4 text-center font-label-bold uppercase text-sm hover:bg-black hover:text-white transition-none">
-            GitHub
-          </a>
-          <a href="https://www.linkedin.com/in/yug-thummar-1834202b5/" target="_blank" rel="noreferrer" className="border-[3px] border-black p-4 text-center font-label-bold uppercase text-sm hover:bg-black hover:text-white transition-none">
-            LinkedIn
-          </a>
-          <a href="#" className="border-[3px] border-black p-4 text-center font-label-bold uppercase text-sm hover:bg-black hover:text-white transition-none">
-            Dribbble
-          </a>
-        </div>
-      </section>
+
 
       <div className="h-24 md:h-0"></div>
     </main>
