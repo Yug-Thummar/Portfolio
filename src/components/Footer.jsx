@@ -5,10 +5,10 @@ export default function Footer() {
         DEVPORTFOLIO
       </div>
       <div className="flex flex-col gap-4 items-center">
-        <a className="font-['Space_Grotesk'] font-bold uppercase text-sm text-black dark:text-white hover:underline decoration-[3px] underline-offset-4 transition-none" href="https://github.com/yugthummar" target="_blank" rel="noopener noreferrer">
+        <a className="font-['Space_Grotesk'] font-bold uppercase text-sm text-black dark:text-white hover:underline decoration-[3px] underline-offset-4 transition-none" href="https://github.com/Yug-Thummar" target="_blank" rel="noopener noreferrer">
           Github
         </a>
-        <a className="font-['Space_Grotesk'] font-bold uppercase text-sm text-black dark:text-white hover:underline decoration-[3px] underline-offset-4 transition-none" href="https://www.linkedin.com/in/yug-thummar/" target="_blank" rel="noopener noreferrer">
+        <a className="font-['Space_Grotesk'] font-bold uppercase text-sm text-black dark:text-white hover:underline decoration-[3px] underline-offset-4 transition-none" href="https://www.linkedin.com/in/yug-thummar-1834202b5/" target="_blank" rel="noopener noreferrer">
           LinkedIn
         </a>
       </div>

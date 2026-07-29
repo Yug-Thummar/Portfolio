@@ -71,10 +71,10 @@ export default function Contact() {
       <section className="p-4 bg-white">
         <h3 className="font-headline-md uppercase mb-4 border-b-[3px] border-black pb-2">Follow</h3>
         <div className="grid grid-cols-2 gap-3">
-          <a href="https://github.com/yugthummar" target="_blank" rel="noreferrer" className="border-[3px] border-black p-4 text-center font-label-bold uppercase text-sm hover:bg-black hover:text-white transition-none">
+          <a href="https://github.com/Yug-Thummar" target="_blank" rel="noreferrer" className="border-[3px] border-black p-4 text-center font-label-bold uppercase text-sm hover:bg-black hover:text-white transition-none">
             GitHub
           </a>
-          <a href="https://www.linkedin.com/in/yug-thummar/" target="_blank" rel="noreferrer" className="border-[3px] border-black p-4 text-center font-label-bold uppercase text-sm hover:bg-black hover:text-white transition-none">
+          <a href="https://www.linkedin.com/in/yug-thummar-1834202b5/" target="_blank" rel="noreferrer" className="border-[3px] border-black p-4 text-center font-label-bold uppercase text-sm hover:bg-black hover:text-white transition-none">
             LinkedIn
           </a>
           <a href="#" className="border-[3px] border-black p-4 text-center font-label-bold uppercase text-sm hover:bg-black hover:text-white transition-none">
