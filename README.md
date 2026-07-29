@@ -1,16 +1,58 @@
-# React + Vite
+# Yug Thummar - Software Engineer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the repository for my personal developer portfolio! This portfolio showcases my experience, skills, and recent full-stack applications across healthcare, e-commerce, CRM, and industrial domains.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack (Portfolio)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio itself is built with modern, performant web technologies:
+- **React.js** - Frontend UI library
+- **Vite** - Lightning-fast build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework for rapid UI styling
+- **JavaScript (JSX)** - Core programming language
 
-## React Compiler
+## 💼 Featured Projects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+My portfolio features a range of production-grade projects, including:
+- **PhysioKea**: A healthcare management platform for physiotherapy clinics.
+- **MandaliDeals**: A group-buying e-commerce platform for volume-based discounts.
+- **Celestial Stores**: A premium e-commerce website with modern UI and SEO optimization.
+- **LabSoul Technologies**: A corporate business website optimized for technical SEO.
+- **Samphire India**: A business website with Firebase hosting and analytics integration.
+- **Jewellery E-Commerce**: A luxury frontend built with Next.js and Material UI.
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+If you want to run this portfolio locally on your machine, follow these steps:
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Yug-Thummar/Portfolio.git
+   cd Portfolio
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 📫 Contact Me
+
+I'm always open to discussing new opportunities, collaborations, and challenging projects.
+- **Email:** yugthummar563@gmail.com
+- **LinkedIn:** [Yug Thummar](https://linkedin.com/in/yug-thummar) *(replace link if needed)*
+- **GitHub:** [Yug-Thummar](https://github.com/Yug-Thummar)
